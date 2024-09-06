@@ -28,7 +28,7 @@ const XCalculator = () => {
         <h1>React Calculator</h1>
 
         <div className="calculation">
-            <input type='text' value={input || 0} />
+            <input type='text' value={input} />
             <p>{value}</p>
         </div>
         <div className="buttons">
